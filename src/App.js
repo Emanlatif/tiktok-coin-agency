@@ -1,8 +1,12 @@
-import TikTokCoinAgency from "./TikTokCoinAgency"
+import React from "react";
+import TikTokCoinAgency from "./TikTokCoinAgency";
 
 function App() {
-  return <TikTokCoinAgency />
+  return (
+    <div>
+      <TikTokCoinAgency />
+    </div>
+  );
 }
 
-export default App
-import React from "react";
+export default App;
